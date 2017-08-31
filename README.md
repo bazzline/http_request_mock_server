@@ -79,7 +79,7 @@ will return
 
 # Mature Projects
 
-This project has less than [128 lines](blob/master/public/index.php]. It is just a small thing you can use.
+This project has less than [128 lines](blob/master/public/index.php). It is just a small thing you can use.
 There are a lot of [mature projects](https://packagist.org/search/?q=api%20mock) out there like [http-server-mock](https://packagist.org/packages/upscale/http-server-mock) to name just one.
 
 # Final Words
