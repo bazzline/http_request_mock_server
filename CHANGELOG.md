@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### To Change
 
+* create dedicated HttpRequestMockServerFactory to enable the option to
+    * use the code outside the index.php
+    * enable the posibility to extend the existing factory and its protected methods to create your own HttpRequestMockServer
+
 ## [Unreleased]
 
 ### Added
