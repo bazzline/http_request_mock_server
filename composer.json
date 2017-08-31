@@ -1,0 +1,34 @@
+{
+    "name": "net_bazzline/http_request_mock_server",
+    "description": "free as in freedom application to test http requests with configurable responses that supports the formats json, raw and xml",
+    "keywords": [
+        "bazzline",
+        "php",
+        "php5",
+        "php56",
+        "php7",
+        "free as in freedom",
+        "reusable",
+        "mock",
+        "http",
+        "https",
+        "server",
+        "rest",
+        "restful",
+        "JSON",
+        "XML",
+        "raw",
+        "status code",
+        "API"
+    ],
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "stev leibelt",
+            "email": "artodeto@bazzline.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
