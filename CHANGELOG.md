@@ -7,14 +7,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Open]
 
-* add example for filter usage
-* add documentation for filter usage
-* extend unit tests
-* implement \_\_clone();
-* implement usage of filter in writer::copy
-* write documentation
-* write adapter to easy up migration from [EasyCsv - 0.0.2](https://github.com/jwage/easy-csv/tree/0.0.2/lib/EasyCSV) to this component
-
 ### To Add
 
 ### To Change
@@ -25,12 +17,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 
+* fixed broken links in CHANGELOG.md
+* removed not project relevant content from the CHANGELOG.md
+
 ## [1.0.0](https://github.com/bazzline/http_request_mock_server/tree/1.0.0) - released at 2017-08-31
 
 ### Added
 
 * [CHANGELOG.md](CHANGELOG.md)
-* [Semantic versioning](tree/)
+* [Semantic versioning](http://semver.org)
 
 ### Changed
 
