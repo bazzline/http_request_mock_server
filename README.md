@@ -4,15 +4,22 @@ This component should easy up your testing.
 It can also be used as a mocked endpoint.
 
 The current change log can be found [here](CHANGELOG.md).
-
+The latest stable release is [![Latest stable](https://img.shields.io/packagist/v/net_bazzline/http_request_mock_server.svg)](https://packagist.org/packages/net_bazzline/http_request_mock_server)
+ 
 # Benefits
 
-* dead stupid simple (With Great Power Comes Great Responsibility)
+* [dead stupid simple](https://en.wikipedia.org/wiki/KISS_principle) (With Great Power Comes Great Responsibility)
+* extendable by its [Open/closed principle](https://en.wikipedia.org/wiki/Open/closed_principle) inside the [HttpRequestmockServerFactory](source/HttpRequestMockServerFactory.php)
 * fast and easy to use
+* shipped with a ready to use [index.php](public/index.php)
 * zero dependencies
 * zero configuration, the usage is just a wget away
 
-# Supported get parameters
+# Supported GET parameters
+
+## content
+
+[Url encoded](http://php.net/manual/en/function.urlencode.php) string.
 
 ## format
 
@@ -25,10 +32,6 @@ One of the following three:
 ## status_code
 
 Any number is working.
-
-## content
-
-[Url encoded](http://php.net/manual/en/function.urlencode.php) string.
 
 # Example
 
@@ -79,7 +82,7 @@ will return
 
 # Mature Projects
 
-This project has less than [128 lines](blob/master/public/index.php). It is just a small thing you can use.
+This project has a small number of [source lines of code](https://en.wikipedia.org/wiki/Source_lines_of_code) (less than 127 lines of code without the syntactic sugar). It is just a small thing you can use.
 There are a lot of [mature projects](https://packagist.org/search/?q=api%20mock) out there like [http-server-mock](https://packagist.org/packages/upscale/http-server-mock) to name just one.
 
 # Final Words
